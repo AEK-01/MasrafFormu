@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
             using (var context = new MasrafFormContext())
             {
                 var result = from fis in context.Fisler
-                             select new Fis { Id = fis.Id, Company=fis.Company, Date=fis.Date, Description=fis.Description, FisType=fis.FisType, TotalCost=fis.TotalCost, VatValue=fis.VatValue };
+                             select new Fis { Id = fis.Id, Company=fis.Company, Date=fis.Date, Description=fis.Description, FisType=fis.FisType, TotalCost=fis.TotalCost, VatValue=fis.VatValue, FisImage=fis.FisImage, FisNo = fis.FisNo };
                 return result.ToList();
             }
         }

@@ -11,7 +11,7 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=MasrafForm;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=LAPTOP-UJJUC08M;Database=MasrafForm;Trusted_Connection=true");
         }
 
         public DbSet<Fis> Fisler { get; set; }

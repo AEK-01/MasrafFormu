@@ -1,4 +1,6 @@
 ﻿using Core.Entities;
+using Microsoft.AspNetCore.Http;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Entities
 {
@@ -11,8 +13,8 @@ namespace Entities
         public string FisType { get; set; }
         public string Description { get; set; }
         public double VatValue { get; set; }
-        public double TotalCost { get; set; } 
-
-    }
+        public double TotalCost { get; set; }
+        public string FisImage { get; set; }
+    }  
 
 }

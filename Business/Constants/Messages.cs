@@ -7,16 +7,16 @@ namespace Business.Constants
     public static class Messages
     {
         //Fişler
-        public static string FisAdded = "Fiş başarıyla eklendi";
-        public static string FisDeleted = "Fiş başarıyla silindi";
-        public static string FisUpdated = "Fiş başarıyla güncellendi";
+        public static string FisAdded = "fis eklendi";
+        public static string FisDeleted = "fis silindi";
+        public static string FisUpdated = "fis guncellendi";
 
 
         //Makbuzlar
-        public static string MakbuzAdded = "Makbuz başarıyla eklendi";
-        public static string MakbuzDeleted = "Makbuz başarıyla silindi";
-        public static string MakbuzUpdated = "Makbuz başarıyla güncellendi";
-        public static string MakbuzlarListelendi = "Makbuzlar başarıyla listelendi";
+        public static string MakbuzAdded = "Makbuz  eklendi";
+        public static string MakbuzDeleted = "Makbuz  silindi";
+        public static string MakbuzUpdated = "Makbuz  guncellendi";
+        public static string MakbuzlarListelendi = "Makbuzlar listelendi";
 
 
 
